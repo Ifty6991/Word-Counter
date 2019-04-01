@@ -1,0 +1,10 @@
+<h1>This text was found!</h1>
+  {{words}}
+
+<h2>There are "{{count}}" words in this text</h2>
+
+{% for word,num in sortedWords %}
+
+  {{word}} - <strong>{{num}}</strong> <br>
+
+{% endfor  %}
